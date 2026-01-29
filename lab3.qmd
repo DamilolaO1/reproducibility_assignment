@@ -10,6 +10,11 @@ install.packages("tidyverse")
 
 ghkjhkjh
 
-```{r}#new}
+\`\`\`{r}#new}
+
+Test 2
+
+```{r}install.packages (ggplot2)}
+
 
 ```
