@@ -18,3 +18,18 @@ Test 2
 
 
 ```
+
+Question 1 #used the code to download the data set from github
+
+```{r}
+stroop_data <- read.delim("https://raw.githubusercontent.com/Lakens/Stroop/master/stroop.txt", header = TRUE)
+write.table(stroop_data, file = "stroop.csv", quote = FALSE, row.names = FALSE, sep = ",")
+
+
+```
+
+```{r}
+stroop_data <- read.csv("stroop.csv",header = TRUE)
+
+
+```
